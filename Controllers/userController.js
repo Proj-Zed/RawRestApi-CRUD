@@ -204,6 +204,7 @@ exports.userUpdate = async (req, res, next) => {
         Username: req.body.Username,
         Firstname: req.body.Firstname,
         Lastname: req.body.Lastname,
+        Updated_At: Date.now()
       }
     );
 
